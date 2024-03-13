@@ -42,3 +42,57 @@ img {
   display: block;
   width: 4rem;
 }
+
+.pencil-tool-cont {
+  height: 5rem;
+  width: 8rem;
+  background-color: #f1f2f6;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;;
+  position: absolute;
+  top: 7rem;
+  left: 25vw;
+  border-radius: 3px;
+}
+
+.pencil-width-cont {
+ 
+  height: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pencil-width-cont input {
+  width: 80%;
+}
+.pencil-color-cont {
+ 
+  height: calc(100% - 2rem);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.pencil-color {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+}
+
+.black {
+  background-color: black;
+}
+
+.red {
+  background-color: red;
+}
+
+.green {
+  background-color: green;
+}
+
+.blue {
+  background-color: blue;
+}
+
