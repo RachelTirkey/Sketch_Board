@@ -21,3 +21,23 @@ body {
   font-size: 1.5rem;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;;
 }
+
+img {
+  display: block;
+}
+
+.tools-cont {
+  display: flex;
+  height: 5rem;
+  width: 60vw;
+  background-color: lightgreen;
+  justify-content: space-around;
+  position: absolute;
+  top: 2rem;
+  left: 20vw;
+}
+
+.tools-cont > * {
+  display: block;
+  width: 4rem;
+}
